@@ -1,0 +1,21 @@
+{
+  "name": "ludumdare35",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:bundle.js",
+    "build": "browserify index.js -o bundle.js"
+  },
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "dependencies": {
+    "ndarray": "^1.0.18",
+    "raf": "^3.2.0",
+    "yo-yo": "^1.1.1"
+  },
+  "devDependencies": {
+    "budo": "^8.2.1",
+    "yo-yoify": "^1.0.3"
+  }
+}
